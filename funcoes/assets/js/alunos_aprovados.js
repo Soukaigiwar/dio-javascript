@@ -12,17 +12,15 @@ var notas   = [];
 
 const qtd = prompt("Quantos alunos:");
 
-function add_aluno(qtd = 0){
+const Alunos = { function(qtd = 0){
     let i = 0
     do {
         alunos.push(prompt(`Digite o nome do aluno ${i + 1}:`));
         notas.push(prompt(`Digite a nota do aluno ${i + 1}:`));
     }
     while(++i < qtd);
-}
+}};
 
 add_aluno(qtd);
 
 alunos.forEach(console.log(alunos));
-
-3
