@@ -1,5 +1,5 @@
 # Exemplos desse projeto
-[Clique aqui](https://link-url-here.org)
+[Clique aqui](https://soukaigiwar.github.io/dio-javascript/)
 
 # Sintaxe e Operadores
 
