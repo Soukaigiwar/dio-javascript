@@ -1,3 +1,6 @@
+# Exemplos desse projeto
+[Clique aqui](https://link-url-here.org)
+
 # Sintaxe e Operadores
 
 Este repositório contém a atividade prática do Curso "Javascript - Sintaxe e Operadores", que faz parte do Basecamp TQI FullStack Developer ministrado pela [Digital Innovation One](https://digitalinnovation.one/) em parceria com a [TQI](https://www.tqi.com.br).
