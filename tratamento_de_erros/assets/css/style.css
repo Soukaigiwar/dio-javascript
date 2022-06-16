@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: 'amatic sc', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+/* HEADER */
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 4px;
+    margin-top: 40px;
+}
+
+/* BODY */
+p {
+    margin: 0 auto;
+    width: 600px;
+    text-align: left;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 40px;
+    color: rgb(180, 180, 180);
+}
+
+.separatorLine {
+    margin: 10px auto 10px;
+    width: 600px;
+    border: rgb(180, 180, 180) solid 1px;
+}
+
+.content ul li {
+    margin: 0 auto;
+    width: 600px;
+    text-align: left;
+    font-family: monospace;
+    font-size: 16px;
+    color: rgb(180, 180, 180);
+    line-height: 30px;
+}
+
+.content ul li span {
+    padding: 2px 5px 2px;
+    color: #ffffff;
+    background-color: rgb(77, 77, 77);
+    border-radius: 5px;
+}
+
+.container form .input_wrapper {
+	display: flex;
+	flex-direction: column;
+    padding: 10px;
+    width: 400px;
+    letter-spacing: 4px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(109, 0, 0);
+    color: #FFF;
+    font-weight: bold;
+}
+
+.container form .input_wrapper label {
+    display: flex;
+    align-items:flex-start;
+	font-size: 24px;
+	line-height: 10px;
+	color: #ffffff;
+    margin: 5px auto 8px;
+    padding: 10px;
+    letter-spacing: 4px;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.container form #inputLength {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 15px;
+    letter-spacing: 4px;
+    margin: 0 10px 0 3px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.container form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 8px;
+    padding: 10px;
+    width: 200px;
+    letter-spacing: 2px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #FFF;
+    color: rgb(109, 0, 0);
+}
+
+.container .personalizedErrorMessage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 5px;
+    letter-spacing: 4px;
+    margin: 20px auto;
+    border-radius: 10px;
+}

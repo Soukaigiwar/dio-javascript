@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de Erros</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Validação de erros por tipo</h1>
+    </header>
+    <div class="content">
+        <p>O objetivo é que a função receba um array e retorne ele caso o seu tamanho corresponda ao número enviado como
+            parâmetro na função. Caso contrário, um erro será lançado.</p>
+        <div class="separatorLine"></div>
+        <ul>
+            <li>Crie uma função que recebe um array e um número</li>
+            <li>Realize as seguintes validações</li>
+            <ul>
+                <li>Se os parâmetros não forem enviados, lance um erro do tipo <span>ReferenceError</span></li>
+                <li>Se o array não for do tipo 'object', lance um erro do tipo <span>TypeError</span></li>
+                <li>Se o número não for do tipo 'number', lance um erro do tipo <span>TypeError</span></li>
+                <li>Se o tamanho do array for diferente do número enviado como parâmetro, lance um erro do tipo
+                    <span>RangeError</span>
+                </li>
+            </ul>
+            <li>Utilize a declaração <span>try...catch</span></li>
+            <li>Filtre as chamadas de catch por cada tipo de erro utilizando o operador <span>instanceof</span></li>
+        </ul>
+        <div class="separatorLine"></div>
+        <div class="container">
+            <form onsubmit="error_handling()">
+                <div class="input_wrapper">
+                    <label for="testInputArray">Digite uma palavra</label>
+                    <input type="text" id="testInputArray" />
+                </div>
+                <div class="input_wrapper">
+                    <label for="inputLength">Quantos caracteres</label>
+                    <input type="text" id="testInputArray" />
+                </div>
+                <button type="submit">Testar</button>
+                <p class="personalizedErrorMessage">Mensagem de Erro aparece aqui.</p>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
