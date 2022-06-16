@@ -22,7 +22,7 @@ h1 {
 /* BODY */
 p {
     margin: 0 auto;
-    width: 600px;
+    width: 800px;
     text-align: left;
     font-family: monospace;
     font-size: 16px;
@@ -32,13 +32,13 @@ p {
 
 .separatorLine {
     margin: 10px auto 10px;
-    width: 600px;
+    width: 800px;
     border: rgb(180, 180, 180) solid 1px;
 }
 
 .content ul li {
     margin: 0 auto;
-    width: 600px;
+    width: 800px;
     text-align: left;
     font-family: monospace;
     font-size: 16px;
@@ -80,35 +80,36 @@ p {
     color: #FFF;
 }
 
-.container form #inputLength {
+.container form .input_wrapper input {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    width: 15px;
     letter-spacing: 4px;
-    margin: 0 10px 0 3px;
+    margin: 0 10px 10px 10px;
     border: 0;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
-.container form button {
+.container form submit {
     display: flex;
-    align-items: center;
     justify-content: center;
     margin: 20px auto 8px;
-    padding: 10px;
+    padding: 25px;
     width: 200px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    font-weight: bolder;
     border: 0;
     border-radius: 10px;
     background-color: #FFF;
     color: rgb(109, 0, 0);
+    cursor: pointer;
 }
 
-.container .personalizedErrorMessage{
+.container #errorLabel{
     display: flex;
     align-items: center;
     justify-content: center;

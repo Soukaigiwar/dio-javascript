@@ -32,17 +32,17 @@
         </ul>
         <div class="separatorLine"></div>
         <div class="container">
-            <form onsubmit="error_handling()">
+            <form>
                 <div class="input_wrapper">
-                    <label for="testInputArray">Digite uma palavra</label>
-                    <input type="text" id="testInputArray" />
+                    <label for="testInputString">Digite uma palavra</label>
+                    <input type="text" id="testInputString" />
                 </div>
                 <div class="input_wrapper">
-                    <label for="inputLength">Quantos caracteres</label>
-                    <input type="text" id="testInputArray" />
+                    <label for="testInputLength">Quantos caracteres</label>
+                    <input type="text" id="testInputLength" />
                 </div>
-                <button type="submit">Testar</button>
-                <p class="personalizedErrorMessage">Mensagem de Erro aparece aqui.</p>
+                <submit onclick="error_handling()">Testar</submit>
+                <p id="errorLabel">Mensagem de Erro aparece aqui.</p>
             </form>
         </div>
     </div>
