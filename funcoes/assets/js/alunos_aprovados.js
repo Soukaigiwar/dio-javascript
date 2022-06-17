@@ -7,20 +7,58 @@
 3 - Utilize a técnica "object destructuring" para manipular as propriedades desejadas de cada aluno.
 
 */
-var alunos  = [];
-var notas   = [];
 
-const qtd = prompt("Quantos alunos:");
+// var studentQtd = Number(prompt("Quantos alunos vai incluir?"));
+var finalAvg = prompt("Qual a nota média desejada?");
+var students = [
+    ['sergio', 2],
+    ['henrique', 7],
+    ['antonio', 8],
+    ['helena', 6],
+    ['jordana', 4]
+];
+// var studentAverage = Array(Number(studentQtd));
 
-const Alunos = { function(qtd = 0){
-    let i = 0
-    do {
-        alunos.push(prompt(`Digite o nome do aluno ${i + 1}:`));
-        notas.push(prompt(`Digite a nota do aluno ${i + 1}:`));
-    }
-    while(++i < qtd);
-}};
+function evalStudent(){
+    console.log(students);
+}
 
-add_aluno(qtd);
+students.forEach(evalStudent());
 
-alunos.forEach(console.log(alunos));
+// for (i = 0; i < students.length; i++){
+//     students[i] = prompt(`Digite o nome do aluno ${i + 1}: `);
+//     console.log(students[i]);
+// }
+
+// for (i = 0; i < studentAverage.length; i++){
+//     students[i] = prompt(`Digitea nota do aluno ${students[i]}: `);
+//     console.log(students[i]);
+// }
+//    students[index] = prompt(`Digite o nome do aluno ${index + 1}: `);
+//    console.log(students);
+
+
+
+
+// studentsAndAvg(3, 6);
+// var alunos  = [];
+// var notas   = [];
+
+// const qtd = prompt("Quantos alunos:");
+
+// console.log(qtd)
+
+// //return;
+
+// const Alunos = { function(){
+//     let i = qtd;
+//     do {
+//         alunos.push(prompt(`Digite o nome do aluno ${i - 1}:`));
+//         notas.push(prompt(`Digite a nota do aluno ${i - 1}:`));
+//     }
+//     while(--i > 0);
+// }};
+
+// add_aluno(qtd);
+
+// alunos.forEach(console.log(alunos));
