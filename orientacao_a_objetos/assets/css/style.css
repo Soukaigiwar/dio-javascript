@@ -49,6 +49,23 @@ p {
 .content span {
     padding: 2px 5px 2px;
     color: #ffffff;
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(30, 146, 1);
     border-radius: 5px;
+}
+
+.content ol li span {
+    background-color: rgb(77, 77, 77);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+textarea {
+    color: #FFF;
+    background-color: rgb(77, 77, 77);
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 50px;
 }
