@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientação a Objetos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Orientação a Objetos</h1>
+    </header>
+    <div class="content">
+        <p>Nesta atividade, vamos testar os conceitos de Orientação a Objetos simulando a criação de diversos tipos de contas bancárias e operações disponíveis em cada uma.</p>
+        <div class="separatorLine"></div>
+        <ol>
+            <li>Crie a classe <span>ContaBancaria</span>, que possui os parâmetros <span>agencia</span>, <span>numero</span>, <span>tipo</span> e <span>saldo</span>;</li>
+            <li>Dentro de <span>ContaBancaria</span>, construa o getter e o setter de <span>saldo</span>;</li>
+            <li>Dentro de <span>ContaBancaria</span>, crie os métodos <span>sacar</span> e <span>depositar</span>;</li>
+            <li>Crie uma classe-filha chamada <span>ContaCorrente</span> que herda todos esses parâmetros e ainda possua o parâmetro <span>cartaoCredito</span>;</li>
+            <li>Ainda em <span>ContaCorrente</span>, construa o getter e o setter de <span>cartaoCredito</span>;</li>
+            <li>Ainda em <span>ContaCorrente</span>, faça com que o <span>tipo</span> seja 'conta corrente' por padrão;</li>
+            <li>Crie uma classe-filha chamada <span>ContaPoupanca</span> que herda todos os parâmetros de <span>ContaBancaria</span>;</li>
+            <li>Crie uma classe-filha chamada <span>ContaUniversitaria</span> que herda todos os parâmetros de <span>ContaBancaria</span>;</li>
+            <li>Faça com que o método <span>saque</span> de <span>ContaUniversitaria</span> apenas seja capaz de sacar valores <strong> menores que 500 reais</strong>.</li>
+        </ul>
+        <div class="separatorLine"></div>
+        <p>Pressione <span>Ctrl</span> + <span>Shift</span> + <span>i</span> para abrir o terminal e testar o script.</p>
+        <div class="container">
+           <input type="text" heigth="20">
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
