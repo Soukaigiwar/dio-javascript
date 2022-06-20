@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body {
+	color: rgb(0, 0, 0);
+	background-color: #f5f5dc;
+}
+
+body.dark-mode {
+	color: rgb(255, 255, 255);
+	background-color: #272727;
+}
+
+.content {
+	margin: 0 auto;
+	padding: 20px;
+	width: 800px;
+	font-size: 20px;
+}
+
+span {
+	background-color: #e5e5e4;
+	border-radius: 5px;
+	padding: 2px 5px 2px;
+	font-size: 16px;
+}
+
+span.dark-mode {
+	background-color: #606060;
+	font: #000;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+}
+
+header #page-title {
+	padding: 30px;
+}
+
+h2 {
+	font-size: 16px;
+	color: #444;
+}
+h2.dark-mode {
+	color: rgb(209, 209, 209);
+}
+
+.apagar {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+button {
+	display:flex;
+	padding: 30px;
+	width: 200px;
+	margin-top: 100px;
+	border: 0;
+	border-radius: 30px;
+	background-color: rgb(110, 110, 249);
+	font-size: 30px;
+	color: white;
+}
+
+button.dark-mode {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+
+button.dark-mode:hover {
+	background-color: rgb(102, 102, 148);
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	padding: 50px;
+	width: 100vw;
+	background-color: rgb(187, 181, 157);
+	font-size: 18px;
+}
+
+footer.dark-mode {
+	background-color: rgb(65, 65, 65);
+	color: #FFF;
+}
+
+footer a {
+	margin: 10px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+footer.dark-mode a {
+	color: rgb(255, 255, 255);
+}
